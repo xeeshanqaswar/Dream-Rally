@@ -13,8 +13,6 @@ public class GameManager : MonoBehaviour
     [Header("COMPONENT REFERENCES")]
     public ArcadeVehicleController playerVehicle;
 
-
-
     #endregion
 
     private void Start() 

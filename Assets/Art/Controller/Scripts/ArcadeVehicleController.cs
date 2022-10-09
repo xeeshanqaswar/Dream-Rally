@@ -38,26 +38,29 @@ public class ArcadeVehicleController : MonoBehaviour
     [HideInInspector]
     public float skidWidth;
 
-
+    
+    private MobileControls m_MobileControls;
     private float radius, horizontalInput, verticalInput;
     private Vector3 origin;
 
     private void Start()
     {
+        gameObject.TryGetComponent<MobileControls>(out m_MobileControls);
         radius = rb.GetComponent<SphereCollider>().radius;
         if (movementMode == MovementMode.AngularVelocity)
         {
             Physics.defaultMaxAngularSpeed = 100;
         }
     }
+    
     private void Update()
     {
-        horizontalInput = Input.GetAxis("Horizontal"); //turning input
-        verticalInput = Input.GetAxis("Vertical");     //accelaration input
+        horizontalInput =  m_MobileControls.HorizontalInput; //turning input
+        verticalInput = m_MobileControls.VerticalInput; //accelaration input
         Visuals();
         AudioManager();
-
     }
+    
     public void AudioManager()
     {
         engineSound.pitch = Mathf.Lerp(minPitch, MaxPitch, Mathf.Abs(carVelocity.z) / MaxSpeed);
