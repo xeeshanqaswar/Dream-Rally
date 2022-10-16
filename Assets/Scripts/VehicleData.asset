@@ -13,9 +13,51 @@ MonoBehaviour:
   m_Name: VehicleData
   m_EditorClassIdentifier: 
   vehiclesContainer:
-  - name: Anitlope
-    selectionObject: {fileID: 0}
-    driveableObject: {fileID: 0}
+  - name: Luna
+    driveableObject: {fileID: 3545234468202372654, guid: b68b250801822b845b9e1deb96fff49d,
+      type: 3}
+    speed: 0
+    acceleration: 0
+    handling: 0
+  - name: Sirius
+    driveableObject: {fileID: 6967767844153377958, guid: a03d20d7fbf3f5340aec96eb5f6264b0,
+      type: 3}
+    speed: 0
+    acceleration: 0
+    handling: 0
+  - name: Columbia
+    driveableObject: {fileID: 751739937334755079, guid: e299a1646bcaa3b40a44393ba6c8f5e1,
+      type: 3}
+    speed: 0
+    acceleration: 0
+    handling: 0
+  - name: M2-9
+    driveableObject: {fileID: 5608339927565373632, guid: 7016798be7465114eaa901514cd8ab0c,
+      type: 3}
+    speed: 0
+    acceleration: 0
+    handling: 0
+  - name: Antiope
+    driveableObject: {fileID: 6417364001727074942, guid: 5b4fcabdf720d0040bf4364103301b52,
+      type: 3}
+    speed: 0
+    acceleration: 0
+    handling: 0
+  - name: Halley
+    driveableObject: {fileID: 3693542180831760258, guid: 2eeb99c3bd0fdd748944b2cf113b1ef4,
+      type: 3}
+    speed: 0
+    acceleration: 0
+    handling: 0
+  - name: Eridanus
+    driveableObject: {fileID: 1899719326670965635, guid: f2ac6df29abd44a4788bbc8c918938e6,
+      type: 3}
+    speed: 0
+    acceleration: 0
+    handling: 0
+  - name: Majoris
+    driveableObject: {fileID: 7197483251167270880, guid: 7318df5b605a06440a4e3b7ee0b13291,
+      type: 3}
     speed: 0
     acceleration: 0
     handling: 0
