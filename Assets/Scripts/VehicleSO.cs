@@ -13,6 +13,8 @@ public class VehicleSO : ScriptableObject
     public struct VehilceStruct
     {
         public string name;
+        public int price;
+        public bool unlocked;
         public GameObject driveableObject;
         public float speed;
         public float acceleration;

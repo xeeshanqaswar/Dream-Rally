@@ -6,6 +6,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName ="Gamestate", menuName = "CustomObjects/Gamestate")]
 public class Gamestate : ScriptableObject
 {
+    public int selectedVehicle;
     public GameMode selectedGameMode;
     public Region selectedRegion;
 }
