@@ -7690,6 +7690,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1295293896}
   - component: {fileID: 1295293898}
+  - component: {fileID: 1295293897}
   m_Layer: 5
   m_Name: Vehicle Selection
   m_TagString: Untagged
@@ -7719,6 +7720,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1295293897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295293895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3c06633d3bda5848a126ca2719065c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayName: {fileID: 238750895}
+  displayPrice: {fileID: 310818608}
+  speed: {fileID: 959693527}
+  acceleration: {fileID: 930212648}
+  handling: {fileID: 1781234924}
 --- !u!222 &1295293898
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8689,7 +8707,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_RenderPostProcessing: 1
-  m_Antialiasing: 2
+  m_Antialiasing: 1
   m_AntialiasingQuality: 2
   m_StopNaN: 1
   m_Dithering: 0
