@@ -66,10 +66,10 @@ MonoBehaviour:
     - 0
     - 0
     blendCornerPointsTransformed:
-    - {x: 729.88477, y: 729.8848, z: 0}
-    - {x: 729.88477, y: 729.8848, z: 0}
-    - {x: 729.88477, y: 280.1153, z: 0}
-    - {x: 729.88477, y: 280.1153, z: 0}
+    - {x: 736.9375, y: 870.93756, z: 0}
+    - {x: 736.9375, y: 870.93756, z: 0}
+    - {x: 736.9375, y: 395.0624, z: 0}
+    - {x: 736.9375, y: 395.0624, z: 0}
     blendRatio: 1
     curveStrength: 0
     roadShapeVecs:
@@ -1620,7 +1620,7 @@ MonoBehaviour:
   planarUVs: 0
   planarTiling: 1
   lastVecRoadIndex: 0
-  isSceneObject: 0
+  isSceneObject: 1
   surfaceObject: {fileID: 0}
   surfaceMeshVecs: []
   tmpSurfaceMeshVecs: []
