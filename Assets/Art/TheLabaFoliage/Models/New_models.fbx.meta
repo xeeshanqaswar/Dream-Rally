@@ -1,136 +1,380 @@
 fileFormatVersion: 2
 guid: 238202394e6ec4645979ac372a597c4b
-timeCreated: 1543830091
-licenseType: Store
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: Cube.000
-    100002: Cube.002
-    100004: Cube.003
-    100006: //RootNode
-    100008: Plane
-    100010: Plane.001
-    100012: Plane.002
-    100014: StreetLight
-    100016: tree
-    100018: tree.001
-    100020: tree.003
-    100022: tree.004
-    100024: tree.005
-    100026: tree.006
-    100028: tree.007
-    100030: tree.008
-    100032: tree.009
-    100034: tree.010
-    100036: trunk
-    100038: Trunk.009
-    100040: Trunk.010
-    100042: Trunk.011
-    100044: Trunk.012
-    100046: Trunk.013
-    400000: Cube.000
-    400002: Cube.002
-    400004: Cube.003
-    400006: //RootNode
-    400008: Plane
-    400010: Plane.001
-    400012: Plane.002
-    400014: StreetLight
-    400016: tree
-    400018: tree.001
-    400020: tree.003
-    400022: tree.004
-    400024: tree.005
-    400026: tree.006
-    400028: tree.007
-    400030: tree.008
-    400032: tree.009
-    400034: tree.010
-    400036: trunk
-    400038: Trunk.009
-    400040: Trunk.010
-    400042: Trunk.011
-    400044: Trunk.012
-    400046: Trunk.013
-    2100000: No Name
-    2100002: lambert1.001
-    2100004: lambert1
-    2100006: Material
-    2100008: Material.002
-    2100010: Wood
-    2300000: Cube.000
-    2300002: Cube.002
-    2300004: Cube.003
-    2300006: Plane
-    2300008: Plane.001
-    2300010: Plane.002
-    2300012: StreetLight
-    2300014: tree
-    2300016: tree.001
-    2300018: tree.003
-    2300020: tree.004
-    2300022: tree.005
-    2300024: tree.006
-    2300026: tree.007
-    2300028: tree.008
-    2300030: tree.009
-    2300032: tree.010
-    2300034: trunk
-    2300036: Trunk.009
-    2300038: Trunk.010
-    2300040: Trunk.011
-    2300042: Trunk.012
-    2300044: Trunk.013
-    3300000: Cube.000
-    3300002: Cube.002
-    3300004: Cube.003
-    3300006: Plane
-    3300008: Plane.001
-    3300010: Plane.002
-    3300012: StreetLight
-    3300014: tree
-    3300016: tree.001
-    3300018: tree.003
-    3300020: tree.004
-    3300022: tree.005
-    3300024: tree.006
-    3300026: tree.007
-    3300028: tree.008
-    3300030: tree.009
-    3300032: tree.010
-    3300034: trunk
-    3300036: Trunk.009
-    3300038: Trunk.010
-    3300040: Trunk.011
-    3300042: Trunk.012
-    3300044: Trunk.013
-    4300000: tree.010
-    4300002: trunk
-    4300004: StreetLight
-    4300006: Plane.002
-    4300008: tree.009
-    4300010: tree.004
-    4300012: tree.008
-    4300014: tree.007
-    4300016: tree.006
-    4300018: tree.005
-    4300020: tree.003
-    4300022: Trunk.013
-    4300024: Trunk.012
-    4300026: Trunk.011
-    4300028: Trunk.010
-    4300030: Trunk.009
-    4300032: tree.001
-    4300034: tree
-    4300036: Cube.003
-    4300038: Cube.000
-    4300040: Cube.002
-    4300042: Plane.001
-    4300044: Plane
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Cube.000
+  - first:
+      1: 100002
+    second: Cube.002
+  - first:
+      1: 100004
+    second: Cube.003
+  - first:
+      1: 100006
+    second: //RootNode
+  - first:
+      1: 100008
+    second: Plane
+  - first:
+      1: 100010
+    second: Plane.001
+  - first:
+      1: 100012
+    second: Plane.002
+  - first:
+      1: 100014
+    second: StreetLight
+  - first:
+      1: 100016
+    second: tree
+  - first:
+      1: 100018
+    second: tree.001
+  - first:
+      1: 100020
+    second: tree.003
+  - first:
+      1: 100022
+    second: tree.004
+  - first:
+      1: 100024
+    second: tree.005
+  - first:
+      1: 100026
+    second: tree.006
+  - first:
+      1: 100028
+    second: tree.007
+  - first:
+      1: 100030
+    second: tree.008
+  - first:
+      1: 100032
+    second: tree.009
+  - first:
+      1: 100034
+    second: tree.010
+  - first:
+      1: 100036
+    second: trunk
+  - first:
+      1: 100038
+    second: Trunk.009
+  - first:
+      1: 100040
+    second: Trunk.010
+  - first:
+      1: 100042
+    second: Trunk.011
+  - first:
+      1: 100044
+    second: Trunk.012
+  - first:
+      1: 100046
+    second: Trunk.013
+  - first:
+      4: 400000
+    second: Cube.000
+  - first:
+      4: 400002
+    second: Cube.002
+  - first:
+      4: 400004
+    second: Cube.003
+  - first:
+      4: 400006
+    second: //RootNode
+  - first:
+      4: 400008
+    second: Plane
+  - first:
+      4: 400010
+    second: Plane.001
+  - first:
+      4: 400012
+    second: Plane.002
+  - first:
+      4: 400014
+    second: StreetLight
+  - first:
+      4: 400016
+    second: tree
+  - first:
+      4: 400018
+    second: tree.001
+  - first:
+      4: 400020
+    second: tree.003
+  - first:
+      4: 400022
+    second: tree.004
+  - first:
+      4: 400024
+    second: tree.005
+  - first:
+      4: 400026
+    second: tree.006
+  - first:
+      4: 400028
+    second: tree.007
+  - first:
+      4: 400030
+    second: tree.008
+  - first:
+      4: 400032
+    second: tree.009
+  - first:
+      4: 400034
+    second: tree.010
+  - first:
+      4: 400036
+    second: trunk
+  - first:
+      4: 400038
+    second: Trunk.009
+  - first:
+      4: 400040
+    second: Trunk.010
+  - first:
+      4: 400042
+    second: Trunk.011
+  - first:
+      4: 400044
+    second: Trunk.012
+  - first:
+      4: 400046
+    second: Trunk.013
+  - first:
+      21: 2100000
+    second: No Name
+  - first:
+      21: 2100002
+    second: lambert1.001
+  - first:
+      21: 2100004
+    second: lambert1
+  - first:
+      21: 2100006
+    second: Material
+  - first:
+      21: 2100008
+    second: Material.002
+  - first:
+      21: 2100010
+    second: Wood
+  - first:
+      23: 2300000
+    second: Cube.000
+  - first:
+      23: 2300002
+    second: Cube.002
+  - first:
+      23: 2300004
+    second: Cube.003
+  - first:
+      23: 2300006
+    second: Plane
+  - first:
+      23: 2300008
+    second: Plane.001
+  - first:
+      23: 2300010
+    second: Plane.002
+  - first:
+      23: 2300012
+    second: StreetLight
+  - first:
+      23: 2300014
+    second: tree
+  - first:
+      23: 2300016
+    second: tree.001
+  - first:
+      23: 2300018
+    second: tree.003
+  - first:
+      23: 2300020
+    second: tree.004
+  - first:
+      23: 2300022
+    second: tree.005
+  - first:
+      23: 2300024
+    second: tree.006
+  - first:
+      23: 2300026
+    second: tree.007
+  - first:
+      23: 2300028
+    second: tree.008
+  - first:
+      23: 2300030
+    second: tree.009
+  - first:
+      23: 2300032
+    second: tree.010
+  - first:
+      23: 2300034
+    second: trunk
+  - first:
+      23: 2300036
+    second: Trunk.009
+  - first:
+      23: 2300038
+    second: Trunk.010
+  - first:
+      23: 2300040
+    second: Trunk.011
+  - first:
+      23: 2300042
+    second: Trunk.012
+  - first:
+      23: 2300044
+    second: Trunk.013
+  - first:
+      33: 3300000
+    second: Cube.000
+  - first:
+      33: 3300002
+    second: Cube.002
+  - first:
+      33: 3300004
+    second: Cube.003
+  - first:
+      33: 3300006
+    second: Plane
+  - first:
+      33: 3300008
+    second: Plane.001
+  - first:
+      33: 3300010
+    second: Plane.002
+  - first:
+      33: 3300012
+    second: StreetLight
+  - first:
+      33: 3300014
+    second: tree
+  - first:
+      33: 3300016
+    second: tree.001
+  - first:
+      33: 3300018
+    second: tree.003
+  - first:
+      33: 3300020
+    second: tree.004
+  - first:
+      33: 3300022
+    second: tree.005
+  - first:
+      33: 3300024
+    second: tree.006
+  - first:
+      33: 3300026
+    second: tree.007
+  - first:
+      33: 3300028
+    second: tree.008
+  - first:
+      33: 3300030
+    second: tree.009
+  - first:
+      33: 3300032
+    second: tree.010
+  - first:
+      33: 3300034
+    second: trunk
+  - first:
+      33: 3300036
+    second: Trunk.009
+  - first:
+      33: 3300038
+    second: Trunk.010
+  - first:
+      33: 3300040
+    second: Trunk.011
+  - first:
+      33: 3300042
+    second: Trunk.012
+  - first:
+      33: 3300044
+    second: Trunk.013
+  - first:
+      43: 4300000
+    second: tree.010
+  - first:
+      43: 4300002
+    second: trunk
+  - first:
+      43: 4300004
+    second: StreetLight
+  - first:
+      43: 4300006
+    second: Plane.002
+  - first:
+      43: 4300008
+    second: tree.009
+  - first:
+      43: 4300010
+    second: tree.004
+  - first:
+      43: 4300012
+    second: tree.008
+  - first:
+      43: 4300014
+    second: tree.007
+  - first:
+      43: 4300016
+    second: tree.006
+  - first:
+      43: 4300018
+    second: tree.005
+  - first:
+      43: 4300020
+    second: tree.003
+  - first:
+      43: 4300022
+    second: Trunk.013
+  - first:
+      43: 4300024
+    second: Trunk.012
+  - first:
+      43: 4300026
+    second: Trunk.011
+  - first:
+      43: 4300028
+    second: Trunk.010
+  - first:
+      43: 4300030
+    second: Trunk.009
+  - first:
+      43: 4300032
+    second: tree.001
+  - first:
+      43: 4300034
+    second: tree
+  - first:
+      43: 4300036
+    second: Cube.003
+  - first:
+      43: 4300038
+    second: Cube.000
+  - first:
+      43: 4300040
+    second: Cube.002
+  - first:
+      43: 4300042
+    second: Plane.001
+  - first:
+      43: 4300044
+    second: Plane
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -147,6 +391,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -161,17 +406,23 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -183,10 +434,13 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -196,14 +450,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
