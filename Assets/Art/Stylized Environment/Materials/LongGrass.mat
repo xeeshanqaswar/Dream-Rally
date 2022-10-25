@@ -111,7 +111,7 @@ Material:
     - __dirty: 0
     - _time: 0.3
     m_Colors:
-    - Color_83AE0B30: {r: 0.79587287, g: 0.9433962, b: 0.6274475, a: 0}
+    - Color_83AE0B30: {r: 0.24504791, g: 0.3584906, b: 0.11667854, a: 0}
     - Color_D1AD6A17: {r: 1, g: 1, b: 1, a: 0}
     - Vector2_DA8EBF00: {r: 1, g: 1, b: 0, a: 0}
     - Vector2_F8D695CF: {r: 0, g: 0, b: 0, a: 0}
