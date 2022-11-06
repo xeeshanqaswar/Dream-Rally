@@ -1,12 +1,6 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:Assets/VacuumShaders/Terrain To Mesh/Shaders/Fallback/VertexLit.shader.meta
 guid: 4cfab2b17302a61488da7d49c47b950b
 ShaderImporter:
-=======
-guid: 49e7af01adbe4e64aa5d756c41800131
-folderAsset: yes
-DefaultImporter:
->>>>>>> origin/master:Assets/Polytope Studio/Lowpoly Medieval Environments/SRP.meta
   externalObjects: {}
   defaultTextures: []
   userData: 
