@@ -73,7 +73,7 @@ Material:
     - _BendingInfluence: 0.731
     - _BumpScale: 1
     - _ColorVariation: 0
-    - _Cutoff: 0.5
+    - _Cutoff: 0.698
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _FlatLighting: 1
