@@ -22,7 +22,7 @@ public class UIManager : MonoBehaviour
 
     private void Update() 
     {
-        speedometer.text = ((int)m_Player.carVelocity.magnitude).ToString();
+        //speedometer.text = ((int)m_Player.carVelocity.magnitude).ToString();
     }
 
     public void OpenPanels(int index)
