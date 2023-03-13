@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using DitzeGames.MobileJoystick;
 using UnityEngine;
@@ -7,17 +8,18 @@ public class MobileControls : MonoBehaviour
 {
     [SerializeField] private bool mobileControls;
 
-    [Header("UI REFERENCES")]
-    // [SerializeField] private HandheldButton steerLeft;
-    // [SerializeField] private HandheldButton steerRight;
-    // [SerializeField] private HandheldButton acceleration;
-    // [SerializeField] private HandheldButton reverse;
-    
     [SerializeField] private Joystick steerJoystick;
     [SerializeField] private Joystick motionJoystick;
 
+    private Rigidbody m_Rigidbody;
+    
     public float HorizontalInput{get;set;}
     public float VerticalInput{get;set;}
+
+    private void Start()
+    {
+        m_Rigidbody = GetComponent<Rigidbody>();
+    }
 
     private void Update()
     {

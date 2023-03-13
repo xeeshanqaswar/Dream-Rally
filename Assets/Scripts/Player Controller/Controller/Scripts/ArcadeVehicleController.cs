@@ -2,10 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum ControlStatus{PlayerControlled, AIControlled};
+
 public class ArcadeVehicleController : MonoBehaviour
 {
     public enum groundCheck { rayCast, sphereCaste };
     public enum MovementMode { Velocity, AngularVelocity };
+
+    public ControlStatus ControlStatus;
+    
     public MovementMode movementMode;
     public groundCheck GroundCheck;
     public LayerMask drivableSurface;
@@ -43,10 +48,14 @@ public class ArcadeVehicleController : MonoBehaviour
     private Vector3 origin;
 
     private MobileControls m_MobileControls;
+    private AIController m_AIController;
 
     private void Start()
     {
         m_MobileControls = GetComponent<MobileControls>();
+        m_AIController = GetComponent<AIController>();
+        
+        
         radius = rb.GetComponent<SphereCollider>().radius;
         if (movementMode == MovementMode.AngularVelocity)
         {
@@ -56,10 +65,19 @@ public class ArcadeVehicleController : MonoBehaviour
 
     private void Update()
     {
-        // horizontalInput = Input.GetAxis("Horizontal"); //turning input
-        // verticalInput = Input.GetAxis("Vertical");     //accelaration input
-        horizontalInput = m_MobileControls.HorizontalInput; //turning input
-        verticalInput =  m_MobileControls.VerticalInput;     //accelaration input
+        if (ControlStatus == ControlStatus.PlayerControlled)
+        {
+            // horizontalInput = Input.GetAxis("Horizontal"); //turning input
+            // verticalInput = Input.GetAxis("Vertical");     //accelaration input
+            horizontalInput = m_MobileControls.HorizontalInput; //turning input
+            verticalInput =  m_MobileControls.VerticalInput;     //accelaration input
+        }
+        else
+        {
+            horizontalInput = m_AIController.HorizontalInput; //turning input
+            verticalInput =  m_AIController.VerticalInput;
+        }
+        
         Visuals();
         AudioManager();
     }

@@ -10,19 +10,25 @@ public class UIManager : MonoBehaviour
 
     [Header("HUD")]
     [SerializeField] private TextMeshProUGUI speedometer;
+    [SerializeField] private GameObject[] gearIndicator;
 
     private ArcadeVehicleController m_Player;
-
-
 
     public void Init(ArcadeVehicleController AVC)
     {
         m_Player = AVC;
     }
 
-    private void Update() 
+    private void Update()
     {
-        //speedometer.text = ((int)m_Player.carVelocity.magnitude).ToString();
+        float speedInKmh = m_Player.carVelocity.magnitude * 2.2369362912f;
+        speedometer.text = ((int)speedInKmh).ToString("000");
+        float pointsToActivate = gearIndicator.Length * (m_Player.carVelocity.magnitude / (m_Player.MaxSpeed - 10f));
+        pointsToActivate = pointsToActivate % gearIndicator.Length;
+        for (int i = 0; i < gearIndicator.Length; i++)
+        {
+            gearIndicator[i].transform.GetChild(0).gameObject.SetActive(i < Mathf.Round(pointsToActivate));
+        }
     }
 
     public void OpenPanels(int index)
