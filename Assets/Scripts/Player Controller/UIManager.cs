@@ -8,7 +8,8 @@ public class UIManager : MonoBehaviour
     [Header("UI REFERENCES")]
     [SerializeField] private GameObject[] panels;
 
-    [Header("HUD")]
+    [Header("HUD")] 
+    [SerializeField] private float fakeSpeedMultiplier;
     [SerializeField] private TextMeshProUGUI speedometer;
     [SerializeField] private GameObject[] gearIndicator;
 
@@ -21,10 +22,10 @@ public class UIManager : MonoBehaviour
 
     private void Update()
     {
-        float speedInKmh = m_Player.carVelocity.magnitude * 2.2369362912f;
+        float speedInKmh = m_Player.carVelocity.magnitude * 2.2369362912f * fakeSpeedMultiplier;
         speedometer.text = ((int)speedInKmh).ToString("000");
         float pointsToActivate = gearIndicator.Length * (m_Player.carVelocity.magnitude / (m_Player.MaxSpeed - 10f));
-        pointsToActivate = pointsToActivate % gearIndicator.Length;
+        pointsToActivate = pointsToActivate % gearIndicator.Length + 1;
         for (int i = 0; i < gearIndicator.Length; i++)
         {
             gearIndicator[i].transform.GetChild(0).gameObject.SetActive(i < Mathf.Round(pointsToActivate));

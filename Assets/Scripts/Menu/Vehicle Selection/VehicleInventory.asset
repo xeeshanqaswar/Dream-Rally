@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf901a402a240d4b9eb945950cdbe41, type: 3}
+  m_Name: VehicleInventory
+  m_EditorClassIdentifier: 
+  vehiclesContainer:
+  - name: Dryad 3336
+    price: 0
+    unlocked: 1
+    driveableObject: {fileID: 2999172174032542775, guid: a8e1f5d59785dae4389874d530265298,
+      type: 3}
+    speed: 0
+    acceleration: 0
+    handling: 0
+  - name: Dryad - EV PF
+    price: 20000
+    unlocked: 0
+    driveableObject: {fileID: 5804542604029501426, guid: 2047aa0cc6e8b354e96d494b3ec7a598,
+      type: 3}
+    speed: 0
+    acceleration: 0
+    handling: 0
+  - name: Siren 7000
+    price: 32000
+    unlocked: 0
+    driveableObject: {fileID: 2046962356206867862, guid: 0a255e6093e91364c82892f8a9a2bbea,
+      type: 3}
+    speed: 0
+    acceleration: 0
+    handling: 0
+  - name: Red Warlock GT
+    price: 40000
+    unlocked: 0
+    driveableObject: {fileID: 8167766562071482570, guid: f75f09a0ad3140c49b56b6bb58af7330,
+      type: 3}
+    speed: 0
+    acceleration: 0
+    handling: 0
+  - name: Minotaur
+    price: 52000
+    unlocked: 0
+    driveableObject: {fileID: 3545234468202372654, guid: b68b250801822b845b9e1deb96fff49d,
+      type: 3}
+    speed: 0
+    acceleration: 0
+    handling: 0
+  - name: Celestia
+    price: 60000
+    unlocked: 0
+    driveableObject: {fileID: 8726624956565031319, guid: 90ccc922bb7014d43a11afa303a5c93f,
+      type: 3}
+    speed: 0
+    acceleration: 0
+    handling: 0
+  - name: Super Nova
+    price: 68000
+    unlocked: 0
+    driveableObject: {fileID: 7085721946603230632, guid: 22460cc4c0a20084095f949342d8c5ea,
+      type: 3}
+    speed: 0
+    acceleration: 0
+    handling: 0
+  - name: Pulsar
+    price: 75000
+    unlocked: 0
+    driveableObject: {fileID: 6303979051043322148, guid: 06ce91247db08514ba198286b90e235e,
+      type: 3}
+    speed: 0
+    acceleration: 0
+    handling: 0
+  - name: Metis
+    price: 75000
+    unlocked: 0
+    driveableObject: {fileID: 5939888216106907075, guid: bbaeb9cba250aef4798a7f0db5a68ab2,
+      type: 3}
+    speed: 0
+    acceleration: 0
+    handling: 0
+  - name: Orcus
+    price: 75000
+    unlocked: 0
+    driveableObject: {fileID: 5885675026220365115, guid: b7f5efb7ba00cca4c80018c35800a0ef,
+      type: 3}
+    speed: 0
+    acceleration: 0
+    handling: 0
+  - name: Orion
+    price: 75000
+    unlocked: 0
+    driveableObject: {fileID: 7197924733320124485, guid: 60dab3dd58a5a9f41a5c682eb9732443,
+      type: 3}
+    speed: 0
+    acceleration: 0
+    handling: 0
+  - name: Phaethon
+    price: 75000
+    unlocked: 0
+    driveableObject: {fileID: 1067877925682011751, guid: a9679bbfacaf5664597501bd4db88e1d,
+      type: 3}
+    speed: 0
+    acceleration: 0
+    handling: 0
+  - name: Stellar
+    price: 75000
+    unlocked: 0
+    driveableObject: {fileID: 4744267838105913641, guid: 6877a9bfb3d8fee45bc305ce91ef14b2,
+      type: 3}
+    speed: 0
+    acceleration: 0
+    handling: 0

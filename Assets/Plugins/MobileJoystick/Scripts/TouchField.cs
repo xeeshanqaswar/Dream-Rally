@@ -8,6 +8,7 @@ namespace DitzeGames.MobileJoystick
     /// </summary>
     public class TouchField : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
+        public RectTransform objec;
         [HideInInspector]
         public Vector2 TouchDist;
         [HideInInspector]
@@ -32,11 +33,14 @@ namespace DitzeGames.MobileJoystick
                     TouchDist = new Vector2(Input.mousePosition.x, Input.mousePosition.y) - PointerOld;
                     PointerOld = Input.mousePosition;
                 }
+
+                objec.anchoredPosition = TouchDist;
             }
             else
             {
                 TouchDist = new Vector2();
             }
+            
         }
 
         public void OnPointerDown(PointerEventData eventData)
