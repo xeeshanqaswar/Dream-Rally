@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Threading;
+using TMPro.Examples;
+using UnityEngine;
 
 namespace PathCreation.Examples
 {
